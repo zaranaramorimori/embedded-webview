@@ -2,6 +2,7 @@ import '@styles/globals.css';
 
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import hackerFamily from '@assets/familyPhoto.svg';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -22,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:url" content="https://hacker-webview.vercel.app/" />
         <meta property="og:site_name" content="HACKER" />
         <meta property="og:description" content="콩 심은 데 콩 나고, 커밋한 데 머리 난다!" />
-        <meta property="og:image" content="@assets/familyPhoto.svg" />
+        <meta property="og:image" content={hackerFamily} />
       </Head>
       <Component {...pageProps} />
     </>
