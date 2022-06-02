@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="HACKER 만든 사람들" />
-        <meta property="og:url" content="https://hacker-members.vercel.app/" />
+        <meta property="og:url" content="https://hacker-webview.vercel.app/" />
         <meta property="og:site_name" content="HACKER" />
         <meta property="og:description" content="콩 심은 데 콩 나고, 커밋한 데 머리 난다!" />
         <meta property="og:image" content="@assets/familyPhoto.svg" />
