@@ -1,17 +1,17 @@
 import styled from '@emotion/styled';
+import Divider from '@src/components/common/Divider';
 import Greeting from '@src/components/members/Greeting';
+import MemberStack from '@src/components/members/MemberStack';
 import React from 'react';
 
 function members() {
   return (
-    <Styled.MainWrapper>
+    <div>
       <Greeting />
-    </Styled.MainWrapper>
+      <Divider />
+      <MemberStack />
+    </div>
   );
 }
-
-const Styled = {
-  MainWrapper: styled.div``,
-};
 
 export default members;

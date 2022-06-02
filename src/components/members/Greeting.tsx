@@ -25,6 +25,7 @@ const Styled = {
     justify-content: center;
     align-items: center;
     padding-top: 40px;
+    padding-bottom: 100vh;
   `,
 
   HiLabel: styled.h1`
