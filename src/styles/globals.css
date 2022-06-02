@@ -21,23 +21,7 @@ body {
 
 #__next {
   background: white;
-  width: 100%;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
-
-/* @media (max-width: 767px) {
-  #__next {
-    width: 414px;
-    max-width: 414px;
-  }
-}
-
-@media (max-width: 413px) {
-  #__next {
-    width: 100%;
-  }
-} */
 
 button {
   outline: 0;

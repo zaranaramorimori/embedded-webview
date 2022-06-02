@@ -4,8 +4,7 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
   return (
     <Styled.Main>
-      <Styled.CenterAligner>
-      </Styled.CenterAligner>
+      <Styled.CenterAligner></Styled.CenterAligner>
     </Styled.Main>
   );
 };
