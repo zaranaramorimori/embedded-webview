@@ -1,0 +1,97 @@
+@import 'reset-css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* font-family: 'Noto Sans CJK KR'; */
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: white;
+  color: black;
+}
+
+#__next {
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+/* @media (max-width: 767px) {
+  #__next {
+    width: 414px;
+    max-width: 414px;
+  }
+}
+
+@media (max-width: 413px) {
+  #__next {
+    width: 100%;
+  }
+} */
+
+button {
+  outline: 0;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src: url('./fonts/NotoSansKR-Light.otf') format('woff2'),
+    url('./fonts/NotoSansKR-Light.otf') format('woff'),
+    url('./fonts/NotoSansKR-Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: url('./fonts/NotoSansKR-Regular.otf') format('woff2'),
+    url('./fonts/NotoSansKR-Regular.otf') format('woff'),
+    url('./fonts/NotoSansKR-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src: url('./fonts/NotoSansKR-Medium.otf') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  src: url('./fonts/NotoSansKR-Bold.otf') format('woff2'),
+    url('./fonts/NotoSansKR-Bold.otf') format('woff'),
+    url('./fonts/NotoSansKR-Bold.otf') format('truetype');
+}
